@@ -1,0 +1,33 @@
+name: care4care
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"  # Ensure compatibility with the Flutter and Dart SDK
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_signin_button: ^2.0.0
+  google_sign_in: ^6.2.2
+  firebase_core: ^3.10.0
+  firebase_auth: ^5.4.0
+  cloud_firestore: ^5.6.1
+  fluttertoast: ^8.2.10
+  flutter_social_button: ^1.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/png-transparent-google-mail-gmail-logo-icon.png
+    - assets/images/4a4c224a0c6667178bebdfa3b6bdb92b.jpg
+    - assets/images/image.png
